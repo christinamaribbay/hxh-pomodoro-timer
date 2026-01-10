@@ -1,0 +1,14 @@
+{
+  "name": "hxh-pomodoro-timer",
+  "version": "1.0.0",
+  "description": "HxH-themed pomodoro timer as a gift for my ate",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tzzing",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^39.2.7"
+  }
+}
