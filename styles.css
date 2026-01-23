@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+     font-family: "Pixelify Sans", sans-serif;
+}
+
+
+.titlebar {
+  height: 55px;
+  background: #905EA9;
+  color: black;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 10px;
+  app-region: drag;
+}
