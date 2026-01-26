@@ -5,6 +5,11 @@ const createWindow = () => {
     width: 380,
     height: 500,
     titleBarStyle: 'hidden',
+    titleBarOverlay: {
+      color: '#905EA9',
+      symbolColor: '#000000',
+      height: 55
+    },
     roundedCorners: false
   })
 
