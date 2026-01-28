@@ -5,24 +5,33 @@
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
+      content="default-src 'self'; 
+        style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; 
+        font-src 'self' https://fonts.gstatic.com;"
     />
     <link href="./styles.css" rel="stylesheet">
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Tiny5&display=swap');
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Tiny5&display=swap" rel="stylesheet">
     <title>HxH Pomodoro Timer</title>
   </head>
+  
   <body>
-    <div class = "titlebar"> HxH Pomodoro Timer!</div>
-    <div class = "appBody">
-        <div class= "innerWin">
-          <h1>Welcome :3</h1>
-          <p>Start</p>
-        </div>     
+    <div id = "start">
+      <div class = "titlebar"> HxH Pomodoro Timer!</div>
+      <div class = "appBody">
+          <div class= "innerWin">
+              <h1 class = "welHead">Welcome :3</h1>
+              <button class = "startButton"> Start </button>       
+          </div>     
+      </div>
+    </div>
+
+    <div id = workTimer>
+      
     </div>
   
-    
+  
     
   </body>
 </html>
