@@ -41,3 +41,11 @@ body {
   font-family: "Tiny5";
   font-size: 12pt;
 }
+
+.workTimer{
+
+}
+
+.hidden{
+  display: none;
+}
